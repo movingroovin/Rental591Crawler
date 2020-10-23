@@ -95,8 +95,7 @@ def rental591Crawler(scanTime):
         if (datetime.now() - postTime < timedelta(minutes=scanTime)):
             # LINE Notify
             headers_lineNotify = {
-                "Authorization": "Bearer " + "JvPatlmOcSTev6vmDiWDrd8q08rMvuja257W9WVsZPA", # Wei Chen
-                # "Authorization": "Bearer " + "9FiwZCAvCkGRD9a4wgHCNF74mciGW7pTCL1JbTWTMzu", # Group: 借我測Line Notify
+                "Authorization": "Bearer " + "Your Token", 
                 "Content-Type": "application/x-www-form-urlencoded"
             }
 
